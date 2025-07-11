@@ -1,0 +1,322 @@
+[
+  {
+    "id": 0,
+    "name": "Downtown Apartment",
+    "description": "Spacious apartment overlooking the park",
+    "location": "New York",
+    "type": "REAL_ESTATE",
+    "propertyType": "Apartment",
+    "area": 85,
+    "rooms": 3,
+    "price": 950000
+  },
+  {
+    "id": 1,
+    "name": "Suburban House",
+    "description": "Beautiful family home with a backyard",
+    "location": "Austin",
+    "type": "REAL_ESTATE",
+    "propertyType": "House",
+    "area": 220,
+    "rooms": 4,
+    "price": 420000
+  },
+  {
+    "id": 2,
+    "name": "Modern Condo",
+    "description": "Luxury condo in the heart of the city",
+    "location": "Chicago",
+    "type": "REAL_ESTATE",
+    "propertyType": "Condo",
+    "area": 70,
+    "rooms": 2,
+    "price": 500000
+  },
+  {
+    "id": 3,
+    "name": "Lakefront Cottage",
+    "description": "Peaceful retreat by the lake",
+    "location": "Minnesota",
+    "type": "REAL_ESTATE",
+    "propertyType": "Cottage",
+    "area": 120,
+    "rooms": 3,
+    "price": 300000
+  },
+  {
+    "id": 4,
+    "name": "Studio Apartment",
+    "description": "Perfect for students and young professionals",
+    "location": "Boston",
+    "type": "REAL_ESTATE",
+    "propertyType": "Studio",
+    "area": 40,
+    "rooms": 1,
+    "price": 250000
+  },
+  {
+    "id": 5,
+    "name": "Penthouse Suite",
+    "description": "Luxury penthouse with skyline views",
+    "location": "Miami",
+    "type": "REAL_ESTATE",
+    "propertyType": "Penthouse",
+    "area": 180,
+    "rooms": 4,
+    "price": 1500000
+  },
+  {
+    "id": 6,
+    "name": "Mountain Cabin",
+    "description": "Cozy cabin in the woods",
+    "location": "Colorado",
+    "type": "REAL_ESTATE",
+    "propertyType": "Cabin",
+    "area": 95,
+    "rooms": 2,
+    "price": 275000
+  },
+  {
+    "id": 7,
+    "name": "Historic Townhouse",
+    "description": "Renovated townhouse with classic charm",
+    "location": "Philadelphia",
+    "type": "REAL_ESTATE",
+    "propertyType": "Townhouse",
+    "area": 160,
+    "rooms": 3,
+    "price": 650000
+  },
+  {
+    "id": 8,
+    "name": "Beachfront Villa",
+    "description": "Private villa with ocean views",
+    "location": "Los Angeles",
+    "type": "REAL_ESTATE",
+    "propertyType": "Villa",
+    "area": 350,
+    "rooms": 5,
+    "price": 3200000
+  },
+  {
+    "id": 9,
+    "name": "Tiny Home",
+    "description": "Minimalist living at its finest",
+    "location": "Portland",
+    "type": "REAL_ESTATE",
+    "propertyType": "Tiny Home",
+    "area": 30,
+    "rooms": 1,
+    "price": 85000
+  },
+  {
+    "id": 10,
+    "name": "Toyota Corolla 2019",
+    "description": "Reliable sedan, low mileage",
+    "location": "San Diego",
+    "type": "AUTO",
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2019,
+    "mileage": 22000
+  },
+  {
+    "id": 11,
+    "name": "Ford F-150 2020",
+    "description": "Powerful pickup truck, great for work",
+    "location": "Dallas",
+    "type": "AUTO",
+    "brand": "Ford",
+    "model": "F-150",
+    "year": 2020,
+    "mileage": 18000
+  },
+  {
+    "id": 12,
+    "name": "Honda Civic 2018",
+    "description": "Fuel-efficient and well maintained",
+    "location": "Orlando",
+    "type": "AUTO",
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2018,
+    "mileage": 40000
+  },
+  {
+    "id": 13,
+    "name": "Chevrolet Tahoe 2017",
+    "description": "Spacious SUV, perfect for families",
+    "location": "Phoenix",
+    "type": "AUTO",
+    "brand": "Chevrolet",
+    "model": "Tahoe",
+    "year": 2017,
+    "mileage": 55000
+  },
+  {
+    "id": 14,
+    "name": "Tesla Model 3 2021",
+    "description": "Electric car with autopilot features",
+    "location": "San Francisco",
+    "type": "AUTO",
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2021,
+    "mileage": 12000
+  },
+  {
+    "id": 15,
+    "name": "BMW 3 Series 2016",
+    "description": "Sporty and luxurious sedan",
+    "location": "Atlanta",
+    "type": "AUTO",
+    "brand": "BMW",
+    "model": "3 Series",
+    "year": 2016,
+    "mileage": 48000
+  },
+  {
+    "id": 16,
+    "name": "Jeep Wrangler 2015",
+    "description": "Off-road ready, rugged performance",
+    "location": "Denver",
+    "type": "AUTO",
+    "brand": "Jeep",
+    "model": "Wrangler",
+    "year": 2015,
+    "mileage": 60000
+  },
+  {
+    "id": 17,
+    "name": "Audi A4 2017",
+    "description": "Premium interior and handling",
+    "location": "Seattle",
+    "type": "AUTO",
+    "brand": "Audi",
+    "model": "A4",
+    "year": 2017,
+    "mileage": 37000
+  },
+  {
+    "id": 18,
+    "name": "Subaru Outback 2020",
+    "description": "All-wheel drive and adventure-ready",
+    "location": "Salt Lake City",
+    "type": "AUTO",
+    "brand": "Subaru",
+    "model": "Outback",
+    "year": 2020,
+    "mileage": 15000
+  },
+  {
+    "id": 19,
+    "name": "Hyundai Elantra 2019",
+    "description": "Compact and budget-friendly",
+    "location": "Charlotte",
+    "type": "AUTO",
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "year": 2019,
+    "mileage": 30000
+  },
+  {
+    "id": 20,
+    "name": "Plumbing Services",
+    "description": "Professional plumbing repairs and installations",
+    "location": "Houston",
+    "type": "SERVICES",
+    "serviceType": "Plumbing",
+    "experience": 10,
+    "cost": 120
+  },
+  {
+    "id": 21,
+    "name": "Lawn Care",
+    "description": "Seasonal lawn mowing and maintenance",
+    "location": "Columbus",
+    "type": "SERVICES",
+    "serviceType": "Lawn Care",
+    "experience": 5,
+    "cost": 50
+  },
+  {
+    "id": 22,
+    "name": "Home Cleaning",
+    "description": "Detailed cleaning for homes and apartments",
+    "location": "San Antonio",
+    "type": "SERVICES",
+    "serviceType": "Cleaning",
+    "experience": 7,
+    "cost": 100
+  },
+  {
+    "id": 23,
+    "name": "Tutoring - Math & Science",
+    "description": "Expert tutoring for high school students",
+    "location": "Raleigh",
+    "type": "SERVICES",
+    "serviceType": "Tutoring",
+    "experience": 4,
+    "cost": 40
+  },
+  {
+    "id": 24,
+    "name": "Graphic Design Services",
+    "description": "Logos, branding, and marketing materials",
+    "location": "Los Angeles",
+    "type": "SERVICES",
+    "serviceType": "Graphic Design",
+    "experience": 6,
+    "cost": 300
+  },
+  {
+    "id": 25,
+    "name": "Car Detailing",
+    "description": "Interior and exterior auto detailing",
+    "location": "Miami",
+    "type": "SERVICES",
+    "serviceType": "Auto Detailing",
+    "experience": 3,
+    "cost": 150
+  },
+  {
+    "id": 26,
+    "name": "Personal Training",
+    "description": "Fitness coaching and nutrition advice",
+    "location": "Nashville",
+    "type": "SERVICES",
+    "serviceType": "Personal Training",
+    "experience": 8,
+    "cost": 75
+  },
+  {
+    "id": 27,
+    "name": "Electrician Services",
+    "description": "Wiring, lighting, and appliance installations",
+    "location": "Baltimore",
+    "type": "SERVICES",
+    "serviceType": "Electrician",
+    "experience": 12,
+    "cost": 200
+  },
+  {
+    "id": 28,
+    "name": "Photography Sessions",
+    "description": "Weddings, events, and portraits",
+    "location": "Chicago",
+    "type": "SERVICES",
+    "serviceType": "Photography",
+    "experience": 9,
+    "cost": 500
+  },
+  {
+    "id": 29,
+    "name": "Dog Walking",
+    "description": "Daily walks and exercise for your pets",
+    "location": "Seattle",
+    "type": "SERVICES",
+    "serviceType": "Dog Walking",
+    "experience": 2,
+    "cost": 25
+  }
+]
