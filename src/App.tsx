@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { AppRouter } from "./routes/AppRouter";
-import { Menu } from "./components/layout/Menu";
 import { adsStore, adsSlice } from "./stores/AdStore";
 import { getAllItems } from "./api/adsApi";
 import Container from "@mui/material/Container";
@@ -19,16 +18,11 @@ const App: React.FC = () => {
   const AppRouterContainer = styled(Container)`
     background-color: lightgray;
     padding: 1rem;
+    // height: 100vh;
   `;
-
-  const handleSearch = (q: string) => {
-    console.log("query ->", q);
-    // navigate(`/search?q=${encodeURIComponent(q)}`)
-  };
 
   return (
     <>
-      <Menu onSearch={handleSearch} />
       <AppRouterContainer maxWidth="xl">
         <AppRouter />
       </AppRouterContainer>

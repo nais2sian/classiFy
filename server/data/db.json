@@ -9,7 +9,8 @@
       "propertyType": "Apartment",
       "area": 85,
       "rooms": "9",
-      "price": 950000
+      "price": 950000,
+      "photo": "https://blog.aptamigo.com/wp-content/uploads/2022/05/ext11-e1670601418687.jpg"
     },
     {
       "id": "1",
@@ -20,7 +21,8 @@
       "propertyType": "House",
       "area": 220,
       "rooms": "454657",
-      "price": 420000
+      "price": 420000,
+      "photo": "https://www.thehousedesigners.com/images/plans/01/ROD/bulk/10455/cl-23-030-1-day_m.webp"
     },
     {
       "id": "2",
@@ -31,7 +33,8 @@
       "propertyType": "Condo",
       "area": 70,
       "rooms": 2,
-      "price": 500000
+      "price": 500000,
+      "photo": "https://blog.aptamigo.com/wp-content/uploads/2022/05/ext11-e1670601418687.jpg"
     },
     {
       "id": "3",
@@ -42,7 +45,8 @@
       "propertyType": "Cottage",
       "area": 120,
       "rooms": 3,
-      "price": 300000
+      "price": 300000,
+      "photo": "https://images.squarespace-cdn.com/content/v1/58eb76dd59cc687c7414042e/1497893833891-83V3SQFY7YRS3A3LTPH0/LFC_001.jpg?format=1500w"
     },
     {
       "id": "4",
@@ -53,7 +57,8 @@
       "propertyType": "Studio",
       "area": 40,
       "rooms": 1,
-      "price": 250000
+      "price": 250000,
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/605394866.jpg?k=4c5b8cca74e1da50bf32e3a2d92a4f9ab0cc4b4d7abff58c99245294e83f4bfc&o=&hp=1"
     },
     {
       "id": "5",
@@ -64,7 +69,8 @@
       "propertyType": "Penthouse",
       "area": 180,
       "rooms": 4,
-      "price": 1500000
+      "price": 1500000,
+      "photo": "https://reisetopia.de/wp-content/uploads/2021/08/luxurioese-penthouse-suite-1024x576.png"
     },
     {
       "id": "6",
@@ -75,7 +81,8 @@
       "propertyType": "Cabin",
       "area": 95,
       "rooms": 2,
-      "price": 275000
+      "price": 275000,
+      "photo": ""
     },
     {
       "id": "7",
@@ -86,7 +93,8 @@
       "propertyType": "Townhouse",
       "area": 160,
       "rooms": 3,
-      "price": 650000
+      "price": 650000,
+      "photo": ""
     },
     {
       "id": "8",
@@ -97,7 +105,8 @@
       "propertyType": "Villa",
       "area": 350,
       "rooms": 5,
-      "price": 3200000
+      "price": 3200000,
+      "photo": ""
     },
     {
       "id": "9",
@@ -108,20 +117,8 @@
       "propertyType": "Tiny Home",
       "area": 30,
       "rooms": 1,
-      "price": "6000000"
-    },
-    {
-      "id": "1971",
-      "adName": "AAAA",
-      "description": "dfgvfdg",
-      "location": "ghbdftgh",
-      "photo": "gthdrtfh",
-      "type": "REAL_ESTATE",
-      "propertyType": "Townhouse",
-      "area": "dsfgds",
-      "rooms": "sdgsretg",
-      "price": "rtgrtg",
-      "name": "AAAA"
+      "price": "6000000",
+      "photo": ""
     }
   ],
   "auto": [
@@ -134,7 +131,8 @@
       "brand": "Toyota",
       "model": "Corolla",
       "year": 2019,
-      "mileage": 22000
+      "mileage": 22000,
+      "photo": ""
     },
     {
       "id": "11",
@@ -145,7 +143,8 @@
       "brand": "Ford",
       "model": "F-150",
       "year": 2020,
-      "mileage": 18000
+      "mileage": 18000,
+      "photo": ""
     },
     {
       "id": "12",
@@ -156,7 +155,8 @@
       "brand": "Honda",
       "model": "Civic",
       "year": 2018,
-      "mileage": 40000
+      "mileage": 40000,
+      "photo": ""
     },
     {
       "id": "13",
@@ -167,7 +167,8 @@
       "brand": "Chevrolet",
       "model": "Tahoe",
       "year": 2017,
-      "mileage": 55000
+      "mileage": 55000,
+      "photo": ""
     },
     {
       "id": "14",
@@ -178,7 +179,8 @@
       "brand": "Tesla",
       "model": "Model 3",
       "year": 2021,
-      "mileage": 12000
+      "mileage": 12000,
+      "photo": ""
     },
     {
       "id": "15",
@@ -189,7 +191,8 @@
       "brand": "BMW",
       "model": "3 Series",
       "year": 2016,
-      "mileage": 48000
+      "mileage": 48000,
+      "photo": ""
     },
     {
       "id": "16",
@@ -200,7 +203,8 @@
       "brand": "Jeep",
       "model": "Wrangler",
       "year": 2015,
-      "mileage": 60000
+      "mileage": 60000,
+      "photo": ""
     },
     {
       "id": "17",
@@ -211,7 +215,8 @@
       "brand": "Audi",
       "model": "A4",
       "year": 2017,
-      "mileage": 37000
+      "mileage": 37000,
+      "photo": ""
     },
     {
       "id": "18",
@@ -222,7 +227,8 @@
       "brand": "Subaru",
       "model": "Outback",
       "year": 2020,
-      "mileage": 15000
+      "mileage": 15000,
+      "photo": ""
     },
     {
       "id": "19",
@@ -233,68 +239,8 @@
       "brand": "Hyundai",
       "model": "Elantra",
       "year": 2019,
-      "mileage": 30000
-    },
-    {
-      "id": "0",
-      "name": "sdg",
-      "description": "asdf",
-      "location": "asdf",
-      "type": "AUTO",
-      "photo": "asdf",
-      "brand": "Toyota",
-      "model": "asdf",
-      "year": 324,
-      "mileage": 234
-    },
-    {
-      "id": "1",
-      "name": "drgerg",
-      "description": "ergter",
-      "location": "ergerg",
-      "type": "AUTO",
-      "photo": "eg",
-      "brand": "Mitsubishi",
-      "model": "ergerg",
-      "year": 56546,
-      "mileage": 5645
-    },
-    {
-      "id": "2",
-      "name": "drgerg",
-      "description": "ergter",
-      "location": "ergerg",
-      "type": "AUTO",
-      "photo": "eg",
-      "brand": "Mitsubishi",
-      "model": "ergerg",
-      "year": 56546,
-      "mileage": 5645
-    },
-    {
-      "id": "96bc",
-      "name": "qqqqqqqqqqqqqqq",
-      "description": "dfd",
-      "location": "fgrtg",
-      "photo": "dfgdfs",
-      "category": "AUTO",
-      "brand": "Mitsubishi",
-      "model": "dsfs",
-      "year": "43545",
-      "mileage": "3454"
-    },
-    {
-      "id": "c5cd",
-      "adName": "CAR",
-      "description": "tghtyh",
-      "location": "ytfjktyuk",
-      "photo": "ujky",
-      "category": "AUTO",
-      "brand": "Ford",
-      "model": "567567",
-      "year": "5675",
-      "mileage": "567567",
-      "name": "CAR"
+      "mileage": 30000,
+      "photo": ""
     }
   ],
   "services": [
@@ -306,7 +252,8 @@
       "type": "SERVICES",
       "serviceType": "Plumbing",
       "experience": 10,
-      "cost": 120
+      "cost": 120,
+      "photo": ""
     },
     {
       "id": "21",
@@ -316,7 +263,8 @@
       "type": "SERVICES",
       "serviceType": "Lawn Care",
       "experience": 5,
-      "cost": 50
+      "cost": 50,
+      "photo": ""
     },
     {
       "id": "22",
@@ -326,7 +274,8 @@
       "type": "SERVICES",
       "serviceType": "Cleaning",
       "experience": 7,
-      "cost": 100
+      "cost": 100,
+      "photo": ""
     },
     {
       "id": "23",
@@ -336,7 +285,8 @@
       "type": "SERVICES",
       "serviceType": "Tutoring",
       "experience": 4,
-      "cost": 40
+      "cost": 40,
+      "photo": ""
     },
     {
       "id": "24",
@@ -346,7 +296,8 @@
       "type": "SERVICES",
       "serviceType": "Graphic Design",
       "experience": 6,
-      "cost": 300
+      "cost": 300,
+      "photo": ""
     },
     {
       "id": "25",
@@ -356,7 +307,8 @@
       "type": "SERVICES",
       "serviceType": "Auto Detailing",
       "experience": 3,
-      "cost": 150
+      "cost": 150,
+      "photo": ""
     },
     {
       "id": "26",
@@ -366,7 +318,8 @@
       "type": "SERVICES",
       "serviceType": "Personal Training",
       "experience": 8,
-      "cost": 75
+      "cost": 75,
+      "photo": ""
     },
     {
       "id": "27",
@@ -376,7 +329,8 @@
       "type": "SERVICES",
       "serviceType": "Electrician",
       "experience": 12,
-      "cost": 200
+      "cost": 200,
+      "photo": ""
     },
     {
       "id": "28",
@@ -386,7 +340,8 @@
       "type": "SERVICES",
       "serviceType": "Photography",
       "experience": 9,
-      "cost": 500
+      "cost": 500,
+      "photo": ""
     },
     {
       "id": "29",
@@ -396,7 +351,8 @@
       "type": "SERVICES",
       "serviceType": "Dog Walking",
       "experience": 2,
-      "cost": 25
+      "cost": 25,
+      "photo": ""
     }
   ]
 }

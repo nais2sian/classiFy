@@ -5,10 +5,10 @@ import {
   carBrands,
   serviceTypes,
   propertyTypes,
-  type AdFormData,
+  // type AdFormData,
 } from "./formdata";
 import styles from "./FormPage.module.css";
-import { putAd } from "../api/adsApi.ts";
+// import { putAd } from "../api/adsApi.ts";
 import { AdsSliceType } from "../stores/AdStore.ts";
 
 export function EditPage() {
@@ -19,22 +19,24 @@ export function EditPage() {
 
   const ad = ads.find((ad) => ad.id === ad.id);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
 
-    const formData: AdFormData = {
-      ...(Object.fromEntries(new FormData(e.currentTarget)) as AdFormData),
-    };
+  //   const formData: AdFormData = {
+  //     ...(Object.fromEntries(new FormData(e.currentTarget)) as AdFormData),
+  //   };
 
-    const data = await putAd(formData, Number(id));
-    console.log("done", data);
-  };
+  //   const data = await putAd(formData, Number(id));
+  //   console.log("done", data);
+  // };
 
   if (!ad) return <>Ad not found.</>;
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form
+      // onSubmit={handleSubmit}
+      >
         <div className={styles.field}>
           <TextField
             name="name"
@@ -179,10 +181,10 @@ export function EditPage() {
           <>
             <Select
               required
-              value={selectedProperty}
-              onChange={(e) => {
-                setSelectedProperty(e.target.value);
-              }}
+              // value={selectedProperty}
+              // onChange={(e) => {
+              //   setSelectedProperty(e.target.value);
+              // }}
               label="Property type"
               displayEmpty={true}
               name="propertyType"
