@@ -7,6 +7,7 @@ export type BaseAd = {
   description?: string;
   location?: string;
   photo?: string, 
+  preview?: string; 
   type: AdType; // дискриминатор
   price?: number;
 };

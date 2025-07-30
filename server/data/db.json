@@ -34,7 +34,7 @@
       "area": 70,
       "rooms": 2,
       "price": 500000,
-      "photo": "https://blog.aptamigo.com/wp-content/uploads/2022/05/ext11-e1670601418687.jpg"
+      "photo": "https://dkorinteriors.com/wp-content/uploads/2024/03/brickell-condo-design-dkorinteriors-cover.webp"
     },
     {
       "id": "3",
@@ -82,7 +82,7 @@
       "area": 95,
       "rooms": 2,
       "price": 275000,
-      "photo": ""
+      "photo": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/615536116.jpg?k=1105a0cd9fd25cd7ebe53a200226d44a240536de1369da10089033a61471f2b9&o=&hp=1"
     },
     {
       "id": "7",
@@ -94,7 +94,7 @@
       "area": 160,
       "rooms": 3,
       "price": 650000,
-      "photo": ""
+      "photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZXc_IEyYTeKTnSuVi-IMYASj6uwgUH2JZ24PQvo_XNA3NsU1ek4wagu0BDTgZG-BSdluc5ZthXx1uWvbgKwrn23FcdfP0T_3ENHovMVy0kOQ5mN8BbWWmkOxwiNSCvqwB5eocP2WJdZZOSUSDgmLP3RZkVV8n6s2Tk4ypTiXZhXlRUQ78PmxWbw7n_kQ/s1024/01EXTERIOR.jpg"
     },
     {
       "id": "8",
@@ -106,7 +106,7 @@
       "area": 350,
       "rooms": 5,
       "price": 3200000,
-      "photo": ""
+      "photo": "https://conradproperties-1f861.kxcdn.com/uploads/properties/1725/phuket-luxury-beachfront-villa-5-bed-natai-13153571.jpg"
     },
     {
       "id": "9",
@@ -118,7 +118,7 @@
       "area": 30,
       "rooms": 1,
       "price": "6000000",
-      "photo": ""
+      "photo": "https://tinyhouseexpedition.com/wp-content/uploads/2022/09/DIY-morracan-style-tiny-house-_4interior.jpg"
     }
   ],
   "auto": [
@@ -132,7 +132,9 @@
       "model": "Corolla",
       "year": 2019,
       "mileage": 22000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://img.sm360.ca/images/article/groupe-chasse/51472//2019_toyota_corolla_hb_event-14-3-43-39-pm1538399842330.jpg",
+      "preview": "blob:http://localhost:5173/43bd2264-9ce1-410d-ba55-04c75cc420de"
     },
     {
       "id": "11",
@@ -144,7 +146,8 @@
       "model": "F-150",
       "year": 2020,
       "mileage": 18000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://www.electrive.net/media/2020/06/ford-f-150-2020-015-min.png"
     },
     {
       "id": "12",
@@ -156,7 +159,8 @@
       "model": "Civic",
       "year": 2018,
       "mileage": 40000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://www.meinauto.de/pics/wpimages/2018/07/honda-civic-2018-ausen-vorne.jpg"
     },
     {
       "id": "13",
@@ -168,7 +172,8 @@
       "model": "Tahoe",
       "year": 2017,
       "mileage": 55000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://smartcdn.gprod.postmedia.digital/driving/wp-content/uploads/2017/02/img_8784.jpg"
     },
     {
       "id": "14",
@@ -180,7 +185,8 @@
       "model": "Model 3",
       "year": 2021,
       "mileage": 12000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://imageio.forbes.com/specials-images/imageserve/5fca67d3d350d8fde511e719/0x0.jpg?format=jpg&height=900&width=1600&fit=boundshttps://imageio.forbes.com/specials-images/imageserve/5fca67d3d350d8fde511e719/0x0.jpg?format=jpg&height=900&width=1600&fit=boundshttps://imageio.forbes.com/specials-images/imageserve/5fca67d3d350d8fde511e719/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
     },
     {
       "id": "15",
@@ -192,7 +198,8 @@
       "model": "3 Series",
       "year": 2016,
       "mileage": 48000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://images.cars.com/cldstatic/wp-content/uploads/889028922-1431011079037.jpg"
     },
     {
       "id": "16",
@@ -204,7 +211,8 @@
       "model": "Wrangler",
       "year": 2015,
       "mileage": 60000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://media.ed.edmunds-media.com/jeep/wrangler/2013/oem/2013_jeep_wrangler_convertible-suv_rubicon_fq_oem_1_1600.jpg"
     },
     {
       "id": "17",
@@ -216,7 +224,8 @@
       "model": "A4",
       "year": 2017,
       "mileage": 37000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://media.ed.edmunds-media.com/audi/a4/2017/oem/2017_audi_a4_sedan_20t-prestige-quattro_fq_oem_11_1600.jpg"
     },
     {
       "id": "18",
@@ -228,7 +237,8 @@
       "model": "Outback",
       "year": 2020,
       "mileage": 15000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://images.hgmsites.net/hug/2020-subaru-outback_100727616_h.jpg"
     },
     {
       "id": "19",
@@ -240,7 +250,8 @@
       "model": "Elantra",
       "year": 2019,
       "mileage": 30000,
-      "photo": ""
+      "price": 30000,
+      "photo": "https://www.hyundai.com/content/dam/hyundai/template_en/en/images/find-a-car/pip/elantra-2019/elantra-ad-fl-highlights-kv-og.jpg"
     }
   ],
   "services": [
@@ -252,8 +263,8 @@
       "type": "SERVICES",
       "serviceType": "Plumbing",
       "experience": 10,
-      "cost": 120,
-      "photo": ""
+      "price": "120",
+      "photo": "https://stackheating.com/wp-content/uploads/2022/02/plumber-2.jpeg"
     },
     {
       "id": "21",
@@ -263,8 +274,9 @@
       "type": "SERVICES",
       "serviceType": "Lawn Care",
       "experience": 5,
-      "cost": 50,
-      "photo": ""
+      "price": "105",
+      "photo": "https://www.richardjacksonsgarden.co.uk/wp-content/uploads/2022/03/AdobeStock_83927203_2200px-scaled-jpg.webp",
+      "photoFile": {}
     },
     {
       "id": "22",
@@ -274,8 +286,8 @@
       "type": "SERVICES",
       "serviceType": "Cleaning",
       "experience": 7,
-      "cost": 100,
-      "photo": ""
+      "price": 100,
+      "photo": "https://sallysmaidservice.com/wp-content/uploads/2022/09/house-cleaners.jpeg"
     },
     {
       "id": "23",
@@ -285,8 +297,8 @@
       "type": "SERVICES",
       "serviceType": "Tutoring",
       "experience": 4,
-      "cost": 40,
-      "photo": ""
+      "price": 40,
+      "photo": "https://alliancetutoring.com/wp-content/uploads/2025/03/How-Tutoring-Can-Help-High-School-Students-with-Advanced-Math-and-Science-Courses-IMG-1.jpg"
     },
     {
       "id": "24",
@@ -296,8 +308,8 @@
       "type": "SERVICES",
       "serviceType": "Graphic Design",
       "experience": 6,
-      "cost": 300,
-      "photo": ""
+      "price": 300,
+      "photo": "https://squareit.in/img/pages/graphic-design.jpg"
     },
     {
       "id": "25",
@@ -307,8 +319,8 @@
       "type": "SERVICES",
       "serviceType": "Auto Detailing",
       "experience": 3,
-      "cost": 150,
-      "photo": ""
+      "price": 150,
+      "photo": "https://irp.cdn-website.com/443aa17f/dms3rep/multi/7+Tips+to+Giving+Your+Car+a+Professional+Detailing.jpg"
     },
     {
       "id": "26",
@@ -318,8 +330,8 @@
       "type": "SERVICES",
       "serviceType": "Personal Training",
       "experience": 8,
-      "cost": 75,
-      "photo": ""
+      "price": 75,
+      "photo": "https://shop.fitnessstudio-suhl.de/wp-content/uploads/2020/12/Personal-Training-injoymed-muellheim-online-shop.jpg"
     },
     {
       "id": "27",
@@ -329,8 +341,8 @@
       "type": "SERVICES",
       "serviceType": "Electrician",
       "experience": 12,
-      "cost": 200,
-      "photo": ""
+      "price": 200,
+      "photo": "https://www.tjcelectrical.co.uk/wp-content/uploads/2023/12/AdobeStock_170179753-min-1024x542.jpeg"
     },
     {
       "id": "28",
@@ -340,8 +352,8 @@
       "type": "SERVICES",
       "serviceType": "Photography",
       "experience": 9,
-      "cost": 500,
-      "photo": ""
+      "price": 500,
+      "photo": "https://kaitlynrosephotography.com/wp-content/uploads/sites/16285/2023/07/2023-07-09_0036-1024x683.jpg"
     },
     {
       "id": "29",
@@ -351,8 +363,8 @@
       "type": "SERVICES",
       "serviceType": "Dog Walking",
       "experience": 2,
-      "cost": 25,
-      "photo": ""
+      "price": 25,
+      "photo": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2024/October/Walking-Dog-Hero.jpg"
     }
   ]
 }

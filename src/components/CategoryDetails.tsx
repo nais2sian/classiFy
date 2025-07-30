@@ -14,7 +14,7 @@ export type UniversalChangeHandler = (
 interface AutoDetailsProps {
   item: AutoAd;
   editMode: boolean;
-  onChange: UniversalChangeHandler; // ← вместо ChangeHandler<AutoAd>
+  onChange: UniversalChangeHandler;
 }
 
 export function AutoDetails({ item, editMode, onChange }: AutoDetailsProps) {

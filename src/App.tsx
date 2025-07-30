@@ -1,14 +1,16 @@
 import React, { useEffect } from "react";
 import { AppRouter } from "./routes/AppRouter";
-import { adsStore, adsSlice } from "./stores/AdStore";
+import { useDispatch } from "react-redux";
+import { adsSlice } from "./stores/AdStore";
 import { getAllItems } from "./api/adsApi";
 import Container from "@mui/material/Container";
 import styled from "@emotion/styled";
 
 const App: React.FC = () => {
+  const dispatch = useDispatch();
   async function loadItems() {
     const items = await getAllItems();
-    adsStore.dispatch(adsSlice.actions.setAds(items));
+    dispatch(adsSlice.actions.setAds(items));
   }
 
   useEffect(() => {
@@ -18,7 +20,6 @@ const App: React.FC = () => {
   const AppRouterContainer = styled(Container)`
     background-color: lightgray;
     padding: 1rem;
-    // height: 100vh;
   `;
 
   return (

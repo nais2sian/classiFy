@@ -15,7 +15,6 @@ interface CardItemProps {
   ad: Ad;
 }
 const CardContainer = styled(Card)(({ theme }) => ({
-  width: 320,
   display: "flex", // чтобы CardActions прилип снизу
   flexDirection: "column",
   borderRadius: theme.shape.borderRadius * 2,
@@ -33,8 +32,13 @@ export const CardItem = ({ ad }: CardItemProps) => {
       : "";
 
   return (
-    <CardContainer>
-      {/* изображение сверху */}
+    <CardContainer
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        height: "100%",
+      }}
+    >
       <CardMedia
         component="img"
         height="180"
@@ -44,11 +48,7 @@ export const CardItem = ({ ad }: CardItemProps) => {
         }
         alt={ad.name}
       />
-
-      {/* заголовок + подзаголовок */}
       <CardHeader title={ad.name} />
-
-      {/* описание, локация, цена */}
       <CardContent sx={{ pt: 0 }}>
         <Typography variant="body2" color="text.secondary" mb={1}>
           {ad.description}
@@ -62,9 +62,12 @@ export const CardItem = ({ ad }: CardItemProps) => {
           {priceFormatted}
         </Typography>
       </CardContent>
-
-      {/* кнопка-ссылка внизу */}
-      <CardActions>
+      <CardActions
+        sx={{
+          mt: "auto",
+          justifyContent: "flex-end",
+        }}
+      >
         <Button
           size="small"
           component={RouterLink}

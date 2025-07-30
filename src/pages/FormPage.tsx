@@ -2,8 +2,6 @@ import { TextField } from "@mui/material";
 import { Select, MenuItem, InputLabel } from "@mui/material";
 import Button from "@mui/material/Button";
 import { useState } from "react";
-// import { type AutoAd } from "../types";
-import styles from "./FormPage.module.css";
 import {
   carBrands,
   serviceTypes,
@@ -65,7 +63,7 @@ function FormPage() {
       <h1>Place an ad</h1>
 
       <form onSubmit={handleSubmit}>
-        <div className={styles.field}>
+        <div>
           <TextField
             name="name"
             type="text"
@@ -75,7 +73,7 @@ function FormPage() {
           <span className="error">{formErrors.adName}</span>
         </div>
 
-        <div className={styles.field}>
+        <div>
           <TextField
             name="description"
             type="text"
@@ -84,7 +82,7 @@ function FormPage() {
           />
         </div>
 
-        <div className={styles.field}>
+        <div>
           <TextField
             name="location"
             type="text"
@@ -93,7 +91,7 @@ function FormPage() {
           />
         </div>
 
-        <div className={styles.field}>
+        <div>
           <TextField
             name="photo"
             type="link"
@@ -102,7 +100,7 @@ function FormPage() {
           />
         </div>
 
-        <div className={styles.field}>
+        <div>
           <InputLabel id="demo-select-small-label">Choose category</InputLabel>
           <Select
             value={selectedCategory}
@@ -124,7 +122,7 @@ function FormPage() {
 
         {selectedCategory === "AUTO" ? (
           <>
-            <div className={styles.field}>
+            <div>
               <Select
                 required
                 value={selectedBrand}
@@ -144,7 +142,7 @@ function FormPage() {
               </Select>
             </div>
 
-            <div className={styles.field}>
+            <div>
               <TextField
                 name="model"
                 required
@@ -154,7 +152,7 @@ function FormPage() {
               />
             </div>
 
-            <div className={styles.field}>
+            <div>
               <TextField
                 name="year"
                 required
@@ -164,7 +162,7 @@ function FormPage() {
               />
             </div>
 
-            <div className={styles.field}>
+            <div>
               <TextField
                 name="mileage"
                 type="text"

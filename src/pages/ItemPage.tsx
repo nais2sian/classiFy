@@ -2,9 +2,12 @@ import { useParams } from "react-router-dom";
 import { getItemById, patchAd } from "../api/adsApi";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { adsStore, adsSlice, AdsSliceType } from "../stores/AdStore";
+import { adsSlice, AdsSliceState } from "../stores/AdStore";
 import SaveIcon from "@mui/icons-material/Save";
+import Typography from "@mui/material/Typography";
 import CloseIcon from "@mui/icons-material/Close";
+import { Box, Paper } from "@mui/material";
+
 import {
   AutoDetails,
   RealEstateDetails,
@@ -21,9 +24,9 @@ type ItemParams = {
 
 function ItemPage() {
   const { type, id } = useParams<ItemParams>();
-  const dispatch = useDispatch<typeof adsStore.dispatch>();
+  const dispatch = useDispatch();
   const item = useSelector(
-    (state: AdsSliceType) => state.selectedAd
+    (state: AdsSliceState) => state.selectedAd
   ) as Ad | null;
 
   /** editMode - просмотр / редактирование */
@@ -56,6 +59,7 @@ function ItemPage() {
     await patchAd(draft, draft.id);
     dispatch(adsSlice.actions.setSelectedAd(draft));
     setEditMode(false);
+    dispatch(adsSlice.actions.updateItem(draft));
   };
 
   const handleCancel = () => {
@@ -87,67 +91,117 @@ function ItemPage() {
   }
 
   return (
-    <>
-      {/* 7.1 Название */}
-      {editMode ? (
-        <TextField
-          variant="standard"
-          fullWidth
-          label="Name"
-          value={draft.name}
-          onChange={handleChange("name")}
-        />
-      ) : (
-        <h2>{item.name}</h2>
-      )}
+    <Box display="flex" justifyContent="center" mt={4}>
+      <Paper
+        elevation={3}
+        sx={{
+          width: "100%",
+          maxWidth: 1000,
+          p: 3,
+        }}
+      >
+        {editMode ? (
+          <TextField
+            variant="standard"
+            fullWidth
+            label="Name"
+            value={draft.name}
+            onChange={handleChange("name")}
+          />
+        ) : (
+          <Typography variant="h3">{item.name}</Typography>
+        )}
 
-      <span>Characteristics:</span>
-      {DetailsComponent}
-
-      {/* 7.2 Описание */}
-      {editMode ? (
-        <TextField
-          label="Description"
-          multiline
-          minRows={3}
-          fullWidth
-          margin="normal"
-          value={draft.description}
-          onChange={handleChange("description")}
-        />
-      ) : (
-        <p>About: {item.description}</p>
-      )}
-
-      {/* 7.3 Город */}
-      {editMode ? (
-        <TextField
-          label="City"
-          fullWidth
-          margin="normal"
-          value={draft.location}
-          onChange={handleChange("location")}
-        />
-      ) : (
-        <p>City: {item.location}</p>
-      )}
-
-      {/* 7.4 Кнопки */}
-      {!editMode ? (
-        <Button variant="contained" onClick={() => setEditMode(true)}>
-          Edit
-        </Button>
-      ) : (
-        <Stack direction="row" spacing={1}>
-          <IconButton color="primary" onClick={handleSave}>
-            <SaveIcon />
-          </IconButton>
-          <IconButton onClick={handleCancel}>
-            <CloseIcon />
-          </IconButton>
+        <Stack spacing={1} mt={2}>
+          {editMode ? (
+            <>
+              {draft.photo && (
+                <img
+                  src={draft.photo}
+                  alt="Preview"
+                  style={{
+                    maxWidth: "100%",
+                    maxHeight: 300,
+                    objectFit: "contain",
+                  }}
+                />
+              )}
+              <TextField
+                label="Image URL"
+                fullWidth
+                margin="normal"
+                value={draft.photo}
+                onChange={handleChange("photo")}
+              />
+            </>
+          ) : (
+            item.photo && (
+              <img
+                src={item.photo}
+                alt={item.name}
+                style={{
+                  maxWidth: "100%",
+                  maxHeight: 300,
+                  objectFit: "contain",
+                }}
+              />
+            )
+          )}
         </Stack>
-      )}
-    </>
+
+        <Typography variant="h6">Characteristics:</Typography>
+        {DetailsComponent}
+
+        {/* Общие поля */}
+        <Stack spacing={1} mt={1}>
+          {editMode ? (
+            <>
+              <TextField
+                label="Description"
+                multiline
+                minRows={3}
+                fullWidth
+                margin="normal"
+                value={draft.description}
+                onChange={handleChange("description")}
+              />
+              <TextField
+                label="City"
+                fullWidth
+                margin="normal"
+                value={draft.location}
+                onChange={handleChange("location")}
+              />
+            </>
+          ) : (
+            <>
+              <Typography>About: {item.description}</Typography>
+              <Typography>City: {item.location}</Typography>
+            </>
+          )}
+        </Stack>
+
+        {/* 7.4 Кнопки */}
+        {!editMode ? (
+          <Button
+            sx={{ marginTop: "30px" }}
+            variant="contained"
+            onClick={() => setEditMode(true)}
+          >
+            Edit
+          </Button>
+        ) : (
+          <Stack direction="row" spacing={1}>
+            <IconButton color="primary" onClick={handleSave}>
+              <SaveIcon />
+            </IconButton>
+            <IconButton onClick={handleCancel}>
+              <CloseIcon />
+            </IconButton>
+          </Stack>
+        )}
+      </Paper>
+    </Box>
   );
 }
 

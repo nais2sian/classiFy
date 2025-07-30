@@ -15,7 +15,13 @@ export function SearchBar({ onSearch }: SearchBarProps) {
         e.preventDefault();
         onSearch(value);
       }}
-      sx={{ p: "2px 4px", display: "flex", alignItems: "center", width: 320 }}
+      sx={{
+        p: "2px 4px",
+        display: "flex",
+        alignItems: "center",
+        width: 320,
+        marginLeft: "240px",
+      }}
     >
       <InputBase
         sx={{ ml: 1, flex: 1 }}
